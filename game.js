@@ -8,6 +8,7 @@ function preload(){
 function create(){
   gameState.crash = this.add.sprite(715, 380, 'crash');
   gameState.cursors = this.input.keyboard.createCursorKeys();
+  gameState.text = this.add.text(570, 85, 'Move crash with arrow keys!' )
 }
 
 function update(){
